@@ -33,17 +33,20 @@ var str = "Hello, playground"
  */
 
 
-
+// Se inicia un recorrido por la secuencia de enteros de 0 a 100:
 for num in 0...100 {
+    // Se revisa si el número es divisible entre 5
     if num % 5 == 0 {
         print ("# \(num) Bingo!!!")
     }
+    // Se revisa si el número es divisible entre 2
     if num % 2 == 0 {
         print ("# \(num) par!!!")
     }else {
-        print ("# \(num) impar!!!")
+        print ("# \(num) impar!!!") // Si no lo es, entonces es impar
     }
     if num >= 30 && num <= 40 {
-        print ("# \(num) Viva Swift!!!")
+        print ("# \(num) Viva Swift!!!") // Si el número está contenido en el rango 30,40. Se imprimen.
     }
 }
+

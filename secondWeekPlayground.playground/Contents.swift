@@ -36,14 +36,14 @@ var str = "Hello, playground"
 
 for num in 0...100 {
     if num % 5 == 0 {
-        print ("\(num) Bingo!!!")
+        print ("# \(num) Bingo!!!")
     }
     if num % 2 == 0 {
-        print ("\(num) par!!!")
+        print ("# \(num) par!!!")
     }else {
-        print ("\(num) impar!!!")
+        print ("# \(num) impar!!!")
     }
     if num >= 30 && num <= 40 {
-        print ("\(num) Viva Swift!!!")
+        print ("# \(num) Viva Swift!!!")
     }
 }
